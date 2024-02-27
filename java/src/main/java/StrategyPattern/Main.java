@@ -14,5 +14,6 @@ public class Main {
 				new PaymentService(ps).getPayment(1111);
 				new PaymentService(cs).getPayment(1222);
 				new PaymentService(bankTransfer).getPayment(5555);
+				System.out.println("MAin working going on");
 		}
 }
